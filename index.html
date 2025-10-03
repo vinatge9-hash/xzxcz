@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Brew & Beans | Coffee Shop</title>
+  <meta name='description' content='Cozy coffee shop serving espresso, pastries, and a welcoming space for the community.'>
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-[Open Sans]'>
+  <!-- Navigation -->
+  <header class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-[Montserrat] font-bold'>Brew & Beans</a>
+      <nav class='hidden md:flex space-x-6'>
+        <a href='index.html' class='hover:underline'>Home</a>
+        <a href='about.html' class='hover:underline'>About</a>
+        <a href='menu.html' class='hover:underline'>Menu</a>
+        <a href='contact.html' class='hover:underline'>Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero -->
+  <section class='min-h-screen bg-cover bg-center' style='background-image: url("https://images.pexels.com/photos/4473507/pexels-photo-4473507.jpeg?auto=compress&cs=tinysrgb&h=650&w=940");'>
+    <div class='bg-black/60 h-full w-full min-h-screen flex items-center justify-center'>
+      <div class='text-center text-white px-4'>
+        <h1 class='font-[Montserrat] text-4xl md:text-5xl font-bold mb-4'>Welcome to Brew & Beans</h1>
+        <p class='font-[Open Sans] text-lg md:text-xl mb-6 max-w-2xl mx-auto'>Your neighborhood café serving freshly brewed coffee, flaky pastries, and a cozy space to linger with friends.</p>
+        <div class='flex flex-col sm:flex-row gap-4 justify-center'>
+          <a href='menu.html' class='bg-[#D2B48C] text-[#3C2415] px-6 py-3 rounded-full font-semibold hover:bg-[#caa779] transition-all duration-300'>View Menu</a>
+          <a href='contact.html' class='bg-transparent border-2 border-white text-white px-6 py-3 rounded-full font-semibold hover:bg-white/20 transition-all duration-300'>Visit Us</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <main class='py-12'>
+    <!-- Highlights -->
+    <section class='max-w-7xl mx-auto px-4 grid gap-8 md:grid-cols-3'>
+      <article class='bg-white shadow rounded p-6'>
+        <div class='text-2xl mb-2 font-semibold font-[Montserrat]'>Espresso Bar</div>
+        <p class='text-gray-700 font-[Open Sans]'>Small-batch espresso shots crafted by our skilled baristas.</p>
+      </article>
+      <article class='bg-white shadow rounded p-6'>
+        <div class='text-2xl mb-2 font-semibold font-[Montserrat]'>Fresh Pastries</div>
+        <p class='text-gray-700 font-[Open Sans]'>Daily selection of croissants, muffins, and seasonal treats.</p>
+      </article>
+      <article class='bg-white shadow rounded p-6'>
+        <div class='text-2xl mb-2 font-semibold font-[Montserrat]'>Community Space</div>
+        <p class='text-gray-700 font-[Open Sans]'>A warm venue for meetups, study sessions, and casual gatherings.</p>
+      </article>
+    </section>
+
+    <!-- Gallery -->
+    <section class='mt-12'>
+      <div class='max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-3 gap-6'>
+        <article class='p-0'>
+          <img src='https://images.pexels.com/photos/18859067/pexels-photo-18859067.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Cozy seating area in Brew & Beans' class='w-full h-60 object-cover rounded'>
+        </article>
+        <article class='p-0'>
+          <img src='https://images.pexels.com/photos/2089807/pexels-photo-2089807.jpeg?auto=compress&cs=tinysrgb&h=650&w=940' alt='Latte art close-up' class='w-full h-60 object-cover rounded'>
+        </article>
+        <article class='p-0'>
+          <img src='https://images.unsplash.com/photo-1583555750399-3064f29f2bbb?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3ODkyNDZ8MHwxfHNlYXJjaHw5fHxiYXJpc3RhJTIwcG91cmluZyUyMGNvZmZlZSUyMGJlaGluZCUyMGNvdW50ZXJ8ZW58MHwwfHx8MTc1OTUxMDA5MXww&ixlib=rb-4.1.0&q=80&w=1080' alt='Barista preparing coffee' class='w-full h-60 object-cover rounded'>
+        </article>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-4 gap-8'>
+      <div>
+        <h3 class='text-xl font-semibold mb-2 font-[Montserrat]'>Brew & Beans</h3>
+        <p class='text-gray-200 text-sm'>Cozy, community-focused coffee shop serving espresso, pastries, and light bites.</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2 font-[Montserrat]'>Hours</h4>
+        <p class='text-sm'>Mon–Fri: 7:00 AM – 7:00 PM</p>
+        <p class='text-sm'>Sat–Sun: 8:00 AM – 5:00 PM</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2 font-[Montserrat]'>Contact</h4>
+        <p class='text-sm'>123 Bean Street, Coffee District</p>
+        <p class='text-sm'>(555) 012-3456</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2 font-[Montserrat]'>Follow</h4>
+        <div class='flex space-x-4'>
+          <a href='#' class='text-white hover:text-[#D2B48C] transition-all'>Instagram</a>
+          <a href='#' class='text-white hover:text-[#D2B48C] transition-all'>Facebook</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
