@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang='en'>
+<head>
+  <meta charset='UTF-8'>
+  <meta name='viewport' content='width=device-width, initial-scale=1.0'>
+  <title>Menu | Brew & Beans</title>
+  <meta name='description' content='Explore our coffee and pastry menu featuring espresso, cappuccino, latte, croissants, and treats.'>
+  <link href='https://fonts.googleapis.com/css2?family=Montserrat:wght@600;700&family=Open+Sans:wght@400;600&display=swap' rel='stylesheet'>
+  <script src='https://cdn.tailwindcss.com'></script>
+</head>
+<body class='font-[Open Sans]'>
+  <header class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-4 flex items-center justify-between'>
+      <a href='index.html' class='text-2xl font-[Montserrat] font-bold'>Brew & Beans</a>
+      <nav class='hidden md:flex space-x-6'>
+        <a href='index.html' class='hover:underline'>Home</a>
+        <a href='about.html' class='hover:underline'>About</a>
+        <a href='menu.html' class='hover:underline'>Menu</a>
+        <a href='contact.html' class='hover:underline'>Contact</a>
+      </nav>
+    </div>
+  </header>
+  <section class='min-h-screen bg-cover bg-center' style='background-image: url("https://pixabay.com/get/g14beae0e24a3bc8014674da5e3e650f66b18d8201b90319b21adb1b4ae9da5ce5e110195ec0ac161919cc26f80d9a296_640.jpg");'>
+    <div class='bg-black/60 h-full w-full min-h-screen flex items-center justify-center'>
+      <div class='text-center text-white px-4'>
+        <h1 class='font-[Montserrat] text-4xl md:text-5xl font-bold mb-4'>Our Menu</h1>
+        <p class='font-[Open Sans] text-lg md:text-xl mb-6 max-w-2xl mx-auto'>From bold espressos to flaky pastries, everything is crafted with care.</p>
+      </div>
+    </div>
+  </section>
+  <main class='py-12'>
+    <section class='max-w-7xl mx-auto px-4 grid grid-cols-1 md:grid-cols-2 gap-8'>
+      <!-- Beverages -->
+      <div class='bg-white rounded shadow p-6'>
+        <h2 class='font-[Montserrat] text-2xl mb-4'>Beverages</h2>
+        <ul class='space-y-4'>
+          <li class='flex justify-between items-center border-b pb-3'>
+            <span>Espresso</span><span class='font-semibold text-[#3C2415]'>$2.50</span>
+          </li>
+          <li class='flex justify-between items-center border-b pb-3'>
+            <span>Latte</span><span class='font-semibold text-[#3C2415]'>$3.50</span>
+          </li>
+          <li class='flex justify-between items-center border-b pb-3'>
+            <span>Cappuccino</span><span class='font-semibold text-[#3C2415]'>$3.75</span>
+          </li>
+          <li class='flex justify-between items-center pb-3'>
+            <span>Americano</span><span class='font-semibold text-[#3C2415]'>$2.75</span>
+          </li>
+        </ul>
+      </div>
+      <!-- Pastries -->
+      <div class='bg-white rounded shadow p-6'>
+        <h2 class='font-[Montserrat] text-2xl mb-4'>Pastries</h2>
+        <ul class='space-y-4'>
+          <li class='flex justify-between items-center border-b pb-3'>
+            <span>Croissant</span><span class='font-semibold text-[#3C2415]'>$2.50</span>
+          </li>
+          <li class='flex justify-between items-center border-b pb-3'>
+            <span>Muffin</span><span class='font-semibold text-[#3C2415]'>$2.75</span>
+          </li>
+          <li class='flex justify-between items-center'>
+            <span>Blueberry Scone</span><span class='font-semibold text-[#3C2415]'>$2.25</span>
+          </li>
+        </ul>
+      </div>
+    </section>
+  </main>
+  <footer class='bg-[#3C2415] text-white'>
+    <div class='max-w-7xl mx-auto px-4 py-12 grid grid-cols-1 md:grid-cols-3 gap-8'>
+      <div>
+        <h3 class='text-xl font-semibold mb-2 font-[Montserrat]'>Brew & Beans</h3>
+        <p class='text-sm text-gray-200'>Cozy café with a passion for good coffee and community.</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2 font-[Montserrat]'>Hours</h4>
+        <p class='text-sm text-gray-200'>Mon–Fri: 7:00 AM – 7:00 PM</p>
+        <p class='text-sm text-gray-200'>Sat–Sun: 8:00 AM – 5:00 PM</p>
+      </div>
+      <div>
+        <h4 class='font-semibold mb-2 font-[Montserrat]'>Find Us</h4>
+        <p class='text-sm text-gray-200'>123 Bean Street, Coffee District</p>
+        <p class='text-sm text-gray-200'>info@brewandbeans.example</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
